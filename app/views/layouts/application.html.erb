@@ -29,11 +29,11 @@
       <div class="container nav-collapse">
         <ul class="nav pull-right">
           <li class="divider-vertical"></li>
-          <li><a href="#home">Quienes Somos!</a></li>
+          <li><a href="#" onclick="$('html, body').animate({scrollTop:0}, 'slow');">Quienes Somos!</a></li>
           <li class="divider-vertical"></li>
-          <li><a href="#about">Servicios</a></li>
+          <li><a id="onAbout" href="#" onclick="$('html, body').animate({scrollTop:1000}, 'slow');">Servicios</a></li>
           <li class="divider-vertical"></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#" onclick="$('html, body').animate({scrollTop:2000}, 'slow');">Contacto</a></li>
           <li class="divider-vertical"></li>
           <!--< if user_signed_in? %>
               <li><= link_to current_user.email, edit_user_registration_path %></li>
