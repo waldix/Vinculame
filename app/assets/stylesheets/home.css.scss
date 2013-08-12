@@ -1,0 +1,152 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?95026469');
+  src: url('../font/fontello.eot?95026469#iefix') format('embedded-opentype'),
+  url('../font/fontello.woff?95026469') format('woff'),
+  url('../font/fontello.ttf?95026469') format('truetype'),
+  url('../font/fontello.svg?95026469#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?95026469#fontello') format('svg');
+  }
+}
+*/
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  font-size: 40px;
+  color: steelblue;
+  text-decoration: none;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-up-big:before {
+  content: '\e800';
+} /* '' */
+
+
+body{
+  // background: url('http://cdn.sencha.io/img/home/december-2012/20121218-bg.jpg');
+  background:whitesmoke;
+}
+
+.button-up{
+  position: fixed;
+  top: 630px;
+  left: 1200px;
+  width: 60px;
+  height: 60px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+
+}
+
+footer{
+  margin-top:50px;
+  p{
+    text-align: center;
+  }
+}
+
+
+#home {
+  background: url(home.jpg) 50% 0 no-repeat fixed;
+  height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#about {
+  background: url(about.jpg) 50% 0 no-repeat fixed;
+  height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#contacto {
+  background: url(contacto.jpg) 50% 0 no-repeat fixed;
+  height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+/* Introduction */
+
+.home{
+  h1{
+    color: white;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+  }
+  .button {
+    position: absolute;
+    top: 450px;
+    left: 23%;
+  }
+}
+
+#about article {
+  background: url("parallax.png") no-repeat scroll center top transparent;
+  height: 458px;
+  position: absolute;
+  text-indent: -9999px;
+  top: 291px;
+  width: 100%;
+}
+
+#contacto article {
+  //background: url("parallax.png") no-repeat scroll center top transparent;
+  height: 458px;
+  position: absolute;
+  text-indent: -9999px;
+  top: 291px;
+  width: 100%;
+}
+
+
+
+
