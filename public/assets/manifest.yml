@@ -17,10 +17,10 @@ principal.jpg: principal-8640cd3a546f747591304bfab4d3db1c.jpg
 principal/index.jpg: principal-8640cd3a546f747591304bfab4d3db1c.jpg
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
-application.js: application-87f44b03833e9a5e84196d461234f537.js
-application/index.js: application-87f44b03833e9a5e84196d461234f537.js
-application.css: application-6d0f8895e026d8717f4f95bf8f306e9e.css
-application/index.css: application-6d0f8895e026d8717f4f95bf8f306e9e.css
+application.js: application-ac3ad108ce2cb6fdcf115ac38bceedab.js
+application/index.js: application-ac3ad108ce2cb6fdcf115ac38bceedab.js
+application.css: application-52751ac7ab76d4bc5c9a2a46f8b62e96.css
+application/index.css: application-52751ac7ab76d4bc5c9a2a46f8b62e96.css
 jquery.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map
 jquery/index.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map
 fontawesome-webfont.eot: fontawesome-webfont-009f6d1f667cc42c25e712ab3429cbc7.eot

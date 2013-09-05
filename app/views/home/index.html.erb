@@ -1,5 +1,6 @@
 <% if user_signed_in? %>
-    <!--<= render :partial => 'api', :locals => {} %>-->
+    <br>
+    <%= render :partial => 'contacts/form', :locals => {:contact => Contact.new}%>
 <% else %>
     <%= render :partial => 'home', :locals => {} %>
 <% end %>

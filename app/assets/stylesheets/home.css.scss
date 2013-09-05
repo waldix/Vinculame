@@ -77,7 +77,7 @@ body{
 }
 
 footer{
-  margin-top:50px;
+  margin-top:350px;
   p{
     text-align: center;
   }
@@ -147,6 +147,90 @@ footer{
   width: 100%;
 }
 
+.form-registration{
+  position: relative;
+  left: 25%;
+}
 
+.btn-registrate{
+  position: relative;
+  left: 24%;
+}
+
+.btn-ingreso{
+  position: relative;
+  left: 7%;
+}
+
+.link-forgot{
+  position: relative;
+  left: 17%;
+}
+
+.sign-in{
+  position: relative;
+  top: 120px;
+}
+
+.form-sign-in{
+  position: relative;
+  left: 25%;
+}
+
+.remember{
+  position: relative;
+  bottom: 35px;
+}
+
+.checkbox-remember{
+  position: relative;
+  bottom: 19px;
+}
+
+.btn-sign-in{
+  position: relative;
+  left: 25%;
+  bottom: 40px;
+}
+
+.btn-sign-up{
+  position: relative;
+  right: -8%;
+  bottom: 40px;
+}
+
+.titulo-info{
+  position: relative;
+  top: 80px;
+  text-align: center;
+}
+
+.bs-docs-example {
+  position: relative;
+  margin: 15px 0;
+  width: 90%;
+  padding: 39px 19px 14px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.bs-docs-example:after {
+  position: absolute;
+  width: 50%;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+  -moz-border-radius: 4px 0 4px 0;
+  border-radius: 4px 0 4px 0;
+}
 
 

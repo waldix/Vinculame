@@ -1,0 +1,43 @@
+<div class="alert alert-success" style="text-align: center;">
+  <h1>Bienvenidos a Vinculando Mexico!</h1>
+  Ingresa los datos que se te piden a continuación
+</div>
+
+<%= form_for(contact, :html => {class: "form-horizontal"}) do |f| %>
+    <% if contact.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(contact.errors.count, "error") %> prohibited this contact from being saved:</h2>
+
+          <ul>
+            <% @contact.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <br><br>
+    <div class="control-group">
+      <%= f.label 'Nombre Completo:', class: "control-label" %>
+      <div class="controls"><%= f.text_field :name %></div>
+    </div>
+    <div class="control-group">
+      <%= f.label "Que estudiaste?", class: "control-label" %>
+      <div class="controls"><%= f.text_field :study %></div>
+    </div>
+    <div class="control-group">
+      <%= f.label "Has Trabajado?", class: "control-label" %>
+      <div class="controls">
+        <%= f.label "Si", class: "checkbox inline"%><span> </span><%= f.check_box  :work, {}, "true" %>
+        <%= f.label "No", class: "checkbox inline"%><span> </span><%= f.check_box  :work, {}, "false" %></div>
+
+    </div>
+    <div class="control-group">
+      <%= f.label "Comentarios:", class: "control-label" %>
+      <div class="controls"><%= f.text_area :comment, rows: "5" %></div>
+
+    </div>
+    <div class="control-group actions">
+      <div class="controls"><%= f.submit "Guardar", class: "btn btn-primary" %></div>
+    </div>
+<% end %>
